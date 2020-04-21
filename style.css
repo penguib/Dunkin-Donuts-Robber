@@ -1,0 +1,106 @@
+body,html{
+    background-color: tomato;
+    width: 300px;
+    height: 65vw;
+}
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: white;
+    user-select: none;
+    text-decoration: overline;
+    left: 10px;
+    top: 0;
+}
+#player{
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 60px;
+    left: 8px;
+}
+#img{
+    position: absolute;
+    left: 8px;
+    top: 60px;
+    width: 280px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+#indicator{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: white;
+    user-select: none;
+    text-decoration: overline;
+    right: 15px;
+    top: 20px;   
+}
+#progress-bar{
+    position: absolute;
+    width: 0;
+    height: 7px;
+    background-color: white;
+    top: 50px;
+    left: 17px;
+}
+#level{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: white;
+    user-select: none;
+    text-decoration: overline;
+    right: 15px;
+    top: 5px;  
+}
+#mult{
+    position: absolute;
+    left: 10px;
+    top: 210px;
+    width: 70px;
+
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    background-color: tomato; 
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 3vw;
+
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+#mult:hover{
+    background-color: white;
+    color: tomato;
+}
+#mult-txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: white;
+    user-select: none;
+    text-decoration: overline;
+
+    position: absolute;
+    top: 210px;
+    right: 10px;
+}
+#stretches{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    color: white;
+    user-select: none;
+    text-decoration: overline;
+    
+    left: 13px;
+    top: 235px;
+}
